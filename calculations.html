@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geometriska beräkningar</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="general.css"> <!-- TODO: Clean the stylesheet -->
+    <style>
+      ul.no-bullets {
+        list-style-type: none; /* Remove bullets */
+        padding: 50; /* Remove padding */
+        margin: 0; /* Remove margins */
+      }
+    </style>
+    <script src="jsKoden.js"></script>
+  </head>
+  <body>
+
+    <section class="general-section raw">
+      <h2>Summa</h2>
+      <section class="general-section-controls">
+        <form name="myGetForm" action="javascript:hanteraSummeraKlick(getInput1.value, getInput2.value)">
+          <input type="text" name="getInput1" id="getInput1" maxlength="40">
+          <input type="text" name="getInput2" id="getInput2" maxlength="40">
+          <input name="Submit"  type="submit" value="Summera"/>
+        </form>
+      </section>
+      <ul id="myList" class="no-bullets"></ul>
+    </section>
+
+  </body>
+</html>

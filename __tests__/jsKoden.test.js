@@ -10,5 +10,5 @@ test('Summera 0 och 0 ska bli 0', () => {
 })
 
 test('Summera a och 5 ska bli NaN', () => {
-  expect(lib.summera(a, 5)).toBe(NaN);
+  expect(lib.summera('a', 5)).toBe(NaN);
 })
